@@ -1,0 +1,6 @@
+{
+	"token": "BOT_TOKEN",
+	"ip": "SERVER_IP",
+	"port": 25565,
+	"pingInterval": 60
+}

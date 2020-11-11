@@ -1,0 +1,13 @@
+{
+  "name": "mcdiscordstatus",
+  "version": "1.0.0",
+  "description": "Discord bot that reports the status of a minecraft server using Discord activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "mc-ping-updated": "^0.1.0"
+  }
+}
