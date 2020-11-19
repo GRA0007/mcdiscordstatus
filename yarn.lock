@@ -23,10 +23,10 @@ long@^4.0.0:
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
-mc-ping-updated@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/mc-ping-updated/-/mc-ping-updated-0.1.1.tgz#61b7fc237fa64b524d0d0d3569c0eaee97cdc7fd"
-  integrity sha512-wYX4B41Jog+RvLFgYPytNvbw+b9mjjsKKqMLJ57a7aH3VgJCNzk6qeWFCTz7FLCWTEk8F81RBqh8kMPCjUVdNw==
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 prism-media@^0.0.4:
   version "0.0.4"

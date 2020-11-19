@@ -1,6 +1,6 @@
 {
   "name": "mcdiscordstatus",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Discord bot that reports the status of a minecraft server using Discord activity",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "discord.js": "^11.5.1",
-    "mc-ping-updated": "^0.1.0"
+    "node-fetch": "^2.6.1"
   }
 }
