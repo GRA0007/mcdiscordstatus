@@ -17,10 +17,11 @@ const getServerStatus = () => {
 
 			if (status.players.online == 0) {
 				client.user.setStatus('idle');
+				client.user.setActivity(`\n⛏️ ${status.players.online} / ${status.players.max}`, { type: 'WATCHING' });
 			} else {
 				client.user.setStatus('online');
+				client.user.setActivity(`\n⛏️ ${status.players.online} / ${status.players.max}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n\n👥 ${status.players.list.join(', ')}`, { type: 'WATCHING' });
 			}
-			client.user.setActivity(`\n⛏️ ${status.players.online} / ${status.players.max}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n\n👥 ${status.players.list.join(', ')}`, { type: 'WATCHING' });
 		})
 		.catch(e => {
 			client.user.setStatus('dnd');
